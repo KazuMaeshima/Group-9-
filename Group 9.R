@@ -2,10 +2,10 @@
   title: "assignment 1"
 output: pdf_document
 header-includes:
-  - \usepackage{fancyhdr}
-- \pagestyle{fancy}
-- \fancyhead[CO,CE]{Group 9}
-- \fancyfoot[CO,CE]{https://github.com/KazuMaeshima/Group-9-.git}
+  - /usepackage{fancyhdr}
+- /pagestyle{fancy}
+- /fancyhead[CO,CE]{Group 9}
+- /fancyfoot[CO,CE]{https://github.com/KazuMaeshima/Group-9-.git}
 ---
   
   ```{r setup, include=FALSE}
@@ -40,7 +40,7 @@ avocado=read.csv(file ="https://github.com/KazuMaeshima/Group-9-/raw/main/avocad
  avocado[!duplicated(avocado), ]
 ##Reorder multiple rows in descending order
  X1_order <- order(avocado$X1, decreasing = T)
- avocado[order(-X1_order),]
+ avocado[order(X1_order),]
 ##Rename some of the column names in your dataset.
  head(avocado)
  m <- avocado
