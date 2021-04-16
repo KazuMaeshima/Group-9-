@@ -2,10 +2,10 @@
   title: "assignment 1"
 output: pdf_document
 header-includes:
-  - /usepackage{fancyhdr}
-- /pagestyle{fancy}
-- /fancyhead[CO,CE]{Group 9}
-- /fancyfoot[CO,CE]{https://github.com/KazuMaeshima/Group-9-.git}
+  - \usepackage{fancyhdr}
+- \pagestyle{fancy}
+- \fancyhead[CO,CE]{Group 9}
+- \fancyfoot[CO,CE]{https://github.com/KazuMaeshima/Group-9-.git}
 ---
   
   ```{r setup, include=FALSE}
@@ -28,7 +28,13 @@ avocado=read.csv(file ="https://github.com/KazuMaeshima/Group-9-/raw/main/avocad
 ##Print the top 15 rows of your dataset.
  head(avocado,15)
 ##Write a user defined function using any of the variables from the data set
-
+  v <- c(45,34,34,34,67)
+ 
+  getmode <- function(v) {
+   uniqv <- unique(v)
+   uniqv[which.max(tabulate(match(v, uniqv)))]
+ }
+  getmode(v)
 ##Use data manipulation techniques and filter rows based on any logical criteria that exist in your dataset
  filter(Avocado,AveragePrice<1)
 ##Identify the dependent & independent variables and use reshaping techniques and create a new data frame by joining those variablesfrom your dataset.\
