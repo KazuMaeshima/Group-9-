@@ -83,11 +83,10 @@ avocado=read.csv(file ="https://github.com/KazuMaeshima/Group-9-/raw/main/avocad
  median(avocado$Total.Bags)
 
 ##Mode
-# Import the library
- library(modeest)
- 
- # Compute the mode value
- mfv(avocado$AveragePrice)
+ v <- c(avocado$AveragePrice) 
+ # Calculate the mode using the user defined function
+ result <- getmode(v)
+ print(result)
 
 ##Range
  range(avocado$Total.Bags)
