@@ -21,7 +21,8 @@ library(readxl)
 ## Load data
 
 avocado=read.csv(file ="https://github.com/KazuMaeshima/Group-9-/raw/main/avocado.csv", header =TRUE)
-
+##Provide a introduction of your analysis in the .RMD file so it can be produced in the output
+# this codes will introduce us how to use R Studio as part of our day to day data analysis. It will produce variables, mean,median,mode, show and manipulate data and plot graphs using ggplot2
 ## head
  str(avocado)
 ## Print the structure of your dataset.
@@ -105,7 +106,7 @@ avocado %>% arrange(desc(AveragePrice))
  ggscatter(avocado, x="Total.Bags", y="AveragePrice", add="reg.line", conf.int = TRUE, cor.coef = TRUE, cor.method = "pearson", xlab = "Total Bags",ylab = "Average Price")
 
 ##Provide a conclusion of your analysis if any in the .RMD file.
-
+#there are different types of avocados. Each avocados corresponds with their respective price based on their size and each country prices their avocados differently
 
 
 
