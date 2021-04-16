@@ -1,5 +1,5 @@
 ---
-  title: "assignment 1"
+title: "assignment 1"
 output: pdf_document
 header-includes:
 - \usepackage{fancyhdr}
