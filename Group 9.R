@@ -28,13 +28,13 @@ avocado=read.csv(file ="https://github.com/KazuMaeshima/Group-9-/raw/main/avocad
 ##Print the top 15 rows of your dataset.
  head(avocado,15)
 ##Write a user defined function using any of the variables from the data set
-  v <- c(45,34,34,34,67)
+  m <- c(45,34,34,34,67)
  
-  getmode <- function(v) {
-   uniqv <- unique(v)
-   uniqv[which.max(tabulate(match(v, uniqv)))]
+  getmode <- function(m) {
+   uniqv <- unique(m)
+   uniqv[which.max(tabulate(match(m, uniqv)))]
  }
-  getmode(v)
+  getmode(m)
 ##Use data manipulation techniques and filter rows based on any logical criteria that exist in your dataset
  filter(Avocado,AveragePrice<1)
 ##Identify the dependent & independent variables and use reshaping techniques and create a new data frame by joining those variablesfrom your dataset.\
