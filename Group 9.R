@@ -2,18 +2,21 @@
   title: "assignment 1"
 output: pdf_document
 header-includes:
-  - \usepackage{fancyhdr}
+- \usepackage{fancyhdr}
 - \pagestyle{fancy}
 - \fancyhead[CO,CE]{Group 9}
 - \fancyfoot[CO,CE]{https://github.com/KazuMaeshima/Group-9-.git}
 ---
   
-  ```{r setup, include=FALSE}
+```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+library(ggpubr)
 library(tidyverse)
 library(janitor) # janitor helps us clean datasets
 library(here) # here helps us to know where files are
+library(readxl)
 ```
+
 
 ## Load data
 
@@ -45,8 +48,7 @@ avocado=read.csv(file ="https://github.com/KazuMaeshima/Group-9-/raw/main/avocad
 ##Identify and remove duplicated data in your dataset.
  avocado[!duplicated(avocado), ]
 ##Reorder multiple rows in descending order
- X1_order <- order(avocado$X1, decreasing = T)
- avocado[order(X1_order),]
+avocado %>% arrange(desc(AveragePrice))
 ##Rename some of the column names in your dataset.
  head(avocado)
  m <- avocado
