@@ -30,7 +30,8 @@ avocado=read.csv(file ="https://github.com/KazuMaeshima/Group-9-/raw/main/avocad
 
 
 ##Provide a introduction of your analysis in the .RMD file so it can be produced in the output
-# this codes will introduce us how to use R Studio as part of our day to day data analysis. It will produce variables, mean,median,mode, show and manipulate data and plot graphs using ggplot2
+# this codes will introduce us how to use R Studio as part of our day to day data analysis. the avocado data set gives you the prices and the types of avocados produces in the USfor the year 2015
+
 ## head
 ## Print the structure of your dataset.
 ```{r}
@@ -71,6 +72,7 @@ m <- c(45,34,34,34,67)
 # Create a new dataset with the selected columns
 ```{r}
  bags <- as.data.frame(avocado %>% select(Total.Bags,Small.Bags,Large.Bags,XLarge.Bags))
+str(bags)
 ```
 
 
@@ -82,26 +84,29 @@ x=na.omit(avocado)
 
  
 ##Identify and remove duplicated data in your dataset.
-```{r include=FALSE}
- avocado[!duplicated(avocado), ]
+```{r}
+ y=avocado[!duplicated(avocado), ]
+head(y,10)
 ```
 
 
 ##Reorder multiple rows in descending order
-```{r include=FALSE}
-avocado %>% arrange(desc(AveragePrice))
+```{r}
+z=avocado %>% arrange(desc(AveragePrice))
+head(z,10)
 ```
 
 
 ##Rename some of the column names in your dataset.
 ```{r}
- head(avocado)
- m <- avocado
- dim(m)
- col_name <- paste("Col", 1:14, sep = "")
- head(m)
- names(m) <-col_name
- head(m)
+colnames(avocado)
+#Change column names to new names
+ names(avocado)[names(avocado) == "X4046"] <- "variety1"
+ names(avocado)[names(avocado) == "X4770"] <- "variety2" 
+ names(avocado)[names(avocado) == "X4225"] <- "variety3"
+ 
+ #Show changed column names
+ colnames(avocado)
 
 ```
 
@@ -125,6 +130,7 @@ avocado %>% arrange(desc(AveragePrice))
 ## Select 80% rows from the main dataset as the training set
 ```{r}
 training = avocado %>% sample_frac(0.8,replace=FALSE)
+head(training,10)
 ```
 
  
@@ -194,8 +200,7 @@ ggplot(data = avocado, aes(x = AveragePrice))+geom_bar()
 
 
 ##Provide a conclusion of your analysis if any in the .RMD file.
-#there are different types of avocados. Each avocados corresponds with their respective price based on their size and each country prices their avocados differently
-
+# there are more avocados in the range of $1-2,
 
 
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.4.12)  16 APR 2021 20:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.4.12)  16 APR 2021 21:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -557,44 +557,44 @@ File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 {c:/Users/dueli/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdfte
 x.map}]
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 219.
-[2] [3] [4] [5]
-<group9rmd_files/figure-latex/unnamed-chunk-18-1.pdf, id=41, 469.755pt x 325.21
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 226.
+[2] [3] [4] [5] [6]
+<group9rmd_files/figure-latex/unnamed-chunk-18-1.pdf, id=56, 469.755pt x 325.21
 5pt>
 File: group9rmd_files/figure-latex/unnamed-chunk-18-1.pdf Graphic file (type pd
 f)
 <use group9rmd_files/figure-latex/unnamed-chunk-18-1.pdf>
 Package pdftex.def Info: group9rmd_files/figure-latex/unnamed-chunk-18-1.pdf  u
-sed on input line 525.
+sed on input line 591.
 (pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
-[6]
-<group9rmd_files/figure-latex/unnamed-chunk-19-1.pdf, id=47, 469.755pt x 325.21
+[7]
+<group9rmd_files/figure-latex/unnamed-chunk-19-1.pdf, id=62, 469.755pt x 325.21
 5pt>
 File: group9rmd_files/figure-latex/unnamed-chunk-19-1.pdf Graphic file (type pd
 f)
 <use group9rmd_files/figure-latex/unnamed-chunk-19-1.pdf>
 Package pdftex.def Info: group9rmd_files/figure-latex/unnamed-chunk-19-1.pdf  u
-sed on input line 535.
+sed on input line 601.
 (pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
-[7 <./group9rmd_files/figure-latex/unnamed-chunk-18-1.pdf>]
-<group9rmd_files/figure-latex/unnamed-chunk-20-1.pdf, id=58, 469.755pt x 325.21
+[8 <./group9rmd_files/figure-latex/unnamed-chunk-18-1.pdf>]
+<group9rmd_files/figure-latex/unnamed-chunk-20-1.pdf, id=72, 469.755pt x 325.21
 5pt>
 File: group9rmd_files/figure-latex/unnamed-chunk-20-1.pdf Graphic file (type pd
 f)
 <use group9rmd_files/figure-latex/unnamed-chunk-20-1.pdf>
 Package pdftex.def Info: group9rmd_files/figure-latex/unnamed-chunk-20-1.pdf  u
-sed on input line 561.
+sed on input line 627.
 (pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
-[8 <./group9rmd_files/figure-latex/unnamed-chunk-19-1.pdf>] [9 <./group9rmd_fil
-es/figure-latex/unnamed-chunk-20-1.pdf>] (./group9rmd.aux)
+[9 <./group9rmd_files/figure-latex/unnamed-chunk-19-1.pdf>] [10 <./group9rmd_fi
+les/figure-latex/unnamed-chunk-20-1.pdf>] (./group9rmd.aux)
 Package rerunfilecheck Info: File `group9rmd.out' has not changed.
-(rerunfilecheck)             Checksum: 5A6D81EFBDB2C21CDE0121A2B137491A;454.
+(rerunfilecheck)             Checksum: F27A28A3062F4FB249E11BC96F0BB802;757.
  ) 
 Here is how much of TeX's memory you used:
- 10540 strings out of 480954
- 154916 string characters out of 5905582
- 470222 words of memory out of 5000000
- 27579 multiletter control sequences out of 15000+600000
+ 10549 strings out of 480954
+ 155051 string characters out of 5905582
+ 474309 words of memory out of 5000000
+ 27583 multiletter control sequences out of 15000+600000
  431673 words of font info for 51 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  71i,12n,74p,407b,471s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -607,10 +607,10 @@ public/lm/lmro10.pfb><c:/Users/dueli/AppData/Roaming/TinyTeX/texmf-dist/fonts/t
 ype1/public/lm/lmtk10.pfb><c:/Users/dueli/AppData/Roaming/TinyTeX/texmf-dist/fo
 nts/type1/public/lm/lmtt10.pfb><c:/Users/dueli/AppData/Roaming/TinyTeX/texmf-di
 st/fonts/type1/public/lm/lmtti10.pfb>
-Output written on group9rmd.pdf (9 pages, 1959279 bytes).
+Output written on group9rmd.pdf (10 pages, 1964432 bytes).
 PDF statistics:
- 113 PDF objects out of 1000 (max. 8388607)
- 88 compressed objects within 1 object stream
- 14 named destinations out of 1000 (max. 500000)
- 32 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 129 PDF objects out of 1000 (max. 8388607)
+ 102 compressed objects within 2 object streams
+ 19 named destinations out of 1000 (max. 500000)
+ 48 words of extra memory for PDF output out of 10000 (max. 10000000)
 
