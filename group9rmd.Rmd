@@ -9,22 +9,32 @@ header-includes:
 ---
   
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-library(ggpubr)
+
+knitr::opts_chunk$set(tidy.opts = list(width.cutoff = 80),echo = TRUE,tidy = TRUE)
+
 library(tidyverse)
+
+library(formatR)
+
 library(janitor) # janitor helps us clean datasets
+
 library(here) # here helps us to know where files are
 library(readxl)
 ```
 
 ## Load data
+```{r avocado}
 avocado=read.csv(file ="https://github.com/KazuMaeshima/Group-9-/raw/main/avocado.csv", header =TRUE)
+
+```
+
+
 ##Provide a introduction of your analysis in the .RMD file so it can be produced in the output
 # this codes will introduce us how to use R Studio as part of our day to day data analysis. It will produce variables, mean,median,mode, show and manipulate data and plot graphs using ggplot2
 ## head
 ## Print the structure of your dataset.
 ```{r}
- print(avocado)
+ str(avocado)
 ```
 
 
@@ -54,7 +64,7 @@ m <- c(45,34,34,34,67)
 
 ##Use data manipulation techniques and filter rows based on any logical criteria that exist in your dataset
 ```{r}
- filter(Avocado,AveragePrice<1)
+ filter(avocado,AveragePrice<0.5)
 ```
 
 ##Identify the dependent & independent variables and use reshaping techniques and create a new data frame by joining those variablesfrom your dataset.\
@@ -65,19 +75,20 @@ m <- c(45,34,34,34,67)
 
 
 ##Remove missing values in your dataset.
-```{r}
-na.omit(Avocado)
+```{r reading data, echo=TRUE}
+x=na.omit(avocado)
+ head(x,10)
 ```
 
  
 ##Identify and remove duplicated data in your dataset.
-```{r}
+```{r include=FALSE}
  avocado[!duplicated(avocado), ]
 ```
 
 
 ##Reorder multiple rows in descending order
-```{r}
+```{r include=FALSE}
 avocado %>% arrange(desc(AveragePrice))
 ```
 

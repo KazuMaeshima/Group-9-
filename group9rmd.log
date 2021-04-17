@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.4.12)  16 APR 2021 19:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.4.12)  16 APR 2021 20:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -357,6 +357,24 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layoutvoffset=\dimen159
 \Gm@dimlist=\toks23
 )
+(c:/Users/dueli/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fancyvrb/fancyvrb.
+sty
+Package: fancyvrb 2021/01/20 v3.7 verbatim text (tvz,hv)
+\FV@CodeLineNo=\count278
+\FV@InFile=\read2
+\FV@TabBox=\box49
+\c@FancyVerbLine=\count279
+\FV@StepNumber=\count280
+\FV@OutFile=\write3
+) (c:/Users/dueli/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/framed/framed.st
+y
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip53
+\fb@frw=\dimen160
+\fb@frh=\dimen161
+\FrameRule=\dimen162
+\FrameSep=\dimen163
+)
 (c:/Users/dueli/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/graphicx.
 sty
 Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
@@ -373,58 +391,58 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 105.
 )
-\Gin@req@height=\dimen160
-\Gin@req@width=\dimen161
+\Gin@req@height=\dimen164
+\Gin@req@width=\dimen165
 )
 (c:/Users/dueli/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fancyhdr/fancyhdr.
 sty
 Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and foote
 rs
-\f@nch@headwidth=\skip53
-\f@nch@O@elh=\skip54
-\f@nch@O@erh=\skip55
-\f@nch@O@olh=\skip56
-\f@nch@O@orh=\skip57
-\f@nch@O@elf=\skip58
-\f@nch@O@erf=\skip59
-\f@nch@O@olf=\skip60
-\f@nch@O@orf=\skip61
+\f@nch@headwidth=\skip54
+\f@nch@O@elh=\skip55
+\f@nch@O@erh=\skip56
+\f@nch@O@olh=\skip57
+\f@nch@O@orh=\skip58
+\f@nch@O@elf=\skip59
+\f@nch@O@erf=\skip60
+\f@nch@O@olf=\skip61
+\f@nch@O@orf=\skip62
 )
 
 Package fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 63.
+less on input line 103.
 
 
 Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
-less on input line 64.
+less on input line 104.
 
 
 (c:/Users/dueli/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3backen
 d-pdftex.def
 File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count278
-\l__pdf_internal_box=\box49
+\l__color_backend_stack_int=\count281
+\l__pdf_internal_box=\box50
 ) (./group9rmd.aux)
 \openout1 = `group9rmd.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
 
 (c:/Users/dueli/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/epsto
 pdf-base.sty
@@ -437,7 +455,7 @@ df-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 73.
+Package hyperref Info: Link coloring OFF on input line 113.
 
 (c:/Users/dueli/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.s
 ty
@@ -451,14 +469,14 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count279
+\c@section@level=\count282
 )
-LaTeX Info: Redefining \ref on input line 73.
-LaTeX Info: Redefining \pageref on input line 73.
-LaTeX Info: Redefining \nameref on input line 73.
+LaTeX Info: Redefining \ref on input line 113.
+LaTeX Info: Redefining \pageref on input line 113.
+LaTeX Info: Redefining \nameref on input line 113.
 (./group9rmd.out) (./group9rmd.out)
-\@outlinefile=\write3
-\openout3 = `group9rmd.out'.
+\@outlinefile=\write4
+\openout4 = `group9rmd.out'.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -494,94 +512,105 @@ LaTeX Info: Redefining \nameref on input line 73.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 7
-5.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
+15.
 (c:/Users/dueli/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 7
-5.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
+15.
 (c:/Users/dueli/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-75.
+115.
 (c:/Users/dueli/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-75.
+115.
 (c:/Users/dueli/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 75.
+(Font)              <12> on input line 115.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 75.
+(Font)              <8> on input line 115.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 75.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 75.
-
+(Font)              <6> on input line 115.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 115
+.
 (c:/Users/dueli/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 75.
-
+LaTeX Font Info:    Trying to load font information for U+msb on input line 115
+.
 (c:/Users/dueli/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 80.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 80.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 80.
-
-Underfull \hbox (badness 5008) in paragraph at lines 79--90
-\T1/lmr/m/n/10 avocado=read.csv(file =``[]$https : / / github . com / KazuMaesh
-ima / Group -[] 9 -[] /raw / main / avocado . csv$[]'', header
- []
-
-
-Overfull \hbox (149.24312pt too wide) in paragraph at lines 91--108
-\T1/lmr/m/n/10 # Cre-ate a new dataset with the se-lected columns bags <- as.da
-ta.frame(avocado %>% se-lect(Total.Bags,Small.Bags,Large.Bags,XLarge.Bags))
- []
-
-
-Underfull \hbox (badness 1371) in paragraph at lines 145--147
-[]\T1/lmr/m/n/10 ##Plot a bar plot for any 1 vari-ables in your dataset gg-plot
-(data = av-o-cado, aes(x = Av-er-
- []
-
-[1
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
+20.
+(c:/Users/dueli/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+) [1
 
 {c:/Users/dueli/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdfte
-x.map}] [2] (./group9rmd.aux)
+x.map}]
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 219.
+[2] [3] [4] [5]
+<group9rmd_files/figure-latex/unnamed-chunk-18-1.pdf, id=41, 469.755pt x 325.21
+5pt>
+File: group9rmd_files/figure-latex/unnamed-chunk-18-1.pdf Graphic file (type pd
+f)
+<use group9rmd_files/figure-latex/unnamed-chunk-18-1.pdf>
+Package pdftex.def Info: group9rmd_files/figure-latex/unnamed-chunk-18-1.pdf  u
+sed on input line 525.
+(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
+[6]
+<group9rmd_files/figure-latex/unnamed-chunk-19-1.pdf, id=47, 469.755pt x 325.21
+5pt>
+File: group9rmd_files/figure-latex/unnamed-chunk-19-1.pdf Graphic file (type pd
+f)
+<use group9rmd_files/figure-latex/unnamed-chunk-19-1.pdf>
+Package pdftex.def Info: group9rmd_files/figure-latex/unnamed-chunk-19-1.pdf  u
+sed on input line 535.
+(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
+[7 <./group9rmd_files/figure-latex/unnamed-chunk-18-1.pdf>]
+<group9rmd_files/figure-latex/unnamed-chunk-20-1.pdf, id=58, 469.755pt x 325.21
+5pt>
+File: group9rmd_files/figure-latex/unnamed-chunk-20-1.pdf Graphic file (type pd
+f)
+<use group9rmd_files/figure-latex/unnamed-chunk-20-1.pdf>
+Package pdftex.def Info: group9rmd_files/figure-latex/unnamed-chunk-20-1.pdf  u
+sed on input line 561.
+(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
+[8 <./group9rmd_files/figure-latex/unnamed-chunk-19-1.pdf>] [9 <./group9rmd_fil
+es/figure-latex/unnamed-chunk-20-1.pdf>] (./group9rmd.aux)
 Package rerunfilecheck Info: File `group9rmd.out' has not changed.
 (rerunfilecheck)             Checksum: 5A6D81EFBDB2C21CDE0121A2B137491A;454.
  ) 
 Here is how much of TeX's memory you used:
- 10023 strings out of 480954
- 146210 string characters out of 5905582
- 445296 words of memory out of 5000000
- 27077 multiletter control sequences out of 15000+600000
- 442748 words of font info for 63 fonts, out of 8000000 for 9000
+ 10540 strings out of 480954
+ 154916 string characters out of 5905582
+ 470222 words of memory out of 5000000
+ 27579 multiletter control sequences out of 15000+600000
+ 431673 words of font info for 51 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 71i,11n,74p,407b,330s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,12n,74p,407b,471s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/Users/dueli/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.e
-nc}{c:/Users/dueli/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-rm.
-enc}{c:/Users/dueli/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ma
-thit.enc}<c:/Users/dueli/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/
-lm/lmbx12.pfb><c:/Users/dueli/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/pu
-blic/lm/lmmi10.pfb><c:/Users/dueli/AppData/Roaming/TinyTeX/texmf-dist/fonts/typ
-e1/public/lm/lmr10.pfb><c:/Users/dueli/AppData/Roaming/TinyTeX/texmf-dist/fonts
-/type1/public/lm/lmr17.pfb><c:/Users/dueli/AppData/Roaming/TinyTeX/texmf-dist/f
-onts/type1/public/lm/lmro10.pfb>
-Output written on group9rmd.pdf (2 pages, 122034 bytes).
+nc}<c:/Users/dueli/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmb
+x12.pfb><c:/Users/dueli/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/l
+m/lmr10.pfb><c:/Users/dueli/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/publ
+ic/lm/lmr17.pfb><c:/Users/dueli/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/
+public/lm/lmro10.pfb><c:/Users/dueli/AppData/Roaming/TinyTeX/texmf-dist/fonts/t
+ype1/public/lm/lmtk10.pfb><c:/Users/dueli/AppData/Roaming/TinyTeX/texmf-dist/fo
+nts/type1/public/lm/lmtt10.pfb><c:/Users/dueli/AppData/Roaming/TinyTeX/texmf-di
+st/fonts/type1/public/lm/lmtti10.pfb>
+Output written on group9rmd.pdf (9 pages, 1959279 bytes).
 PDF statistics:
- 56 PDF objects out of 1000 (max. 8388607)
- 46 compressed objects within 1 object stream
- 7 named destinations out of 1000 (max. 500000)
- 17 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 113 PDF objects out of 1000 (max. 8388607)
+ 88 compressed objects within 1 object stream
+ 14 named destinations out of 1000 (max. 500000)
+ 32 words of extra memory for PDF output out of 10000 (max. 10000000)
 
